@@ -23,9 +23,16 @@
     padding: 10px;
 }
 
-.eventWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    height: 100%;
+.btn {
+    font-size: 12px;
+    background-color: unset;
+    padding: 2px;
+    outline: none;
+    border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:focus-visible {
+    outline: none;
 }

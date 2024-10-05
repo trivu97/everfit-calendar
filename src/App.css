@@ -42,4 +42,5 @@ p {
     max-width: 1313px;
     margin: 0 auto;
     height: 100%;
+    position: relative;
 }

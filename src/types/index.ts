@@ -3,18 +3,20 @@ export type IExcercise = {
   title: string;
   quantity: number;
   description: string;
+  eventId: string;
+  date: string;
 }
 
 export type IEvent = {
   id: string;
   title: string;
-  children: IExcercise[];
+  exercises: IExcercise[];
+  date: string;
 }
 
 export type IDate = {
   id: string;
   date: number;
-  events: IEvent[];
 }
 
 export enum ItemType {
