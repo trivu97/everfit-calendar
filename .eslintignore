@@ -1,0 +1,13 @@
+node_modules
+dist
+build
+.eslintrc
+setupTests.js
+reportWebVitals.ts
+commitlint.config.js
+.prettierrc.json
+changelog-custom-hbs.js
+tsconfig.json
+vite.config.ts
+.env
+mocks
